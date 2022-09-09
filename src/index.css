@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #f1f5f8;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.items {
+}
+.items h1 {
+  text-align: center;
+  margin-top: 4rem;
+  font-size: 2.5rem;
+  padding-bottom: 10px;
+  border-bottom: 5px black;
+}
+.underline {
+  width: 6rem;
+  height: 0.25rem;
+  background: #49a6e9;
+  margin: 0 auto;
+  margin-bottom: 4rem;
+}
+.single-city {
+  width: 45vw;
+  margin: 2rem auto;
+  background: #fff;
+}
+.single-city img {
+  width: 100%;
+  height: 325px;
+  object-fit: cover;
+}
+.under-img {
+  padding: 2rem;
+}
+.price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.price h4 {
+  font-size: 1rem;
+  color: #49a6e9;
+  padding: 3px 5px;
+  background: #ebf7ff;
+  border-radius: 3px;
+}
+.under-img p {
+  margin: 1rem auto;
+  display: inline-block;
+  color: #617d98;
+  font-weight: 400;
+}
+.read-btn {
+  background: none;
+  border: none;
+  color: #49a6e9;
+  font-size: 1rem;
+}
+
+.btn {
+  margin: 0px auto;
+  display: block;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #bb2525;
+  border-color: #bb2525;
+  background: transparent;
+  padding: 5px 40px;
+  border-radius: 5px;
+  border-width: 0.1px;
+}
